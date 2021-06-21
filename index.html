@@ -93,63 +93,66 @@
 
         /* ----------------------------- */
 
-        ul{
-            padding:0;
-            margin:0;
-           list-style: none;
-           line-height:1px;
-          
-           
-        }
-                
-        a{
-            text-decoration:none;
-        }
-
-        li:hover{
-            background-color: blueviolet;
-           box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,
-                       0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
-           text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;          
-
-        }
-
-        #sidebar{
-            position:fixed;
-            height:auto;
-            width:30%;
-            left: -30%;
-            background-color: rgb(233, 40, 40)
-            
-
-
-        }
-        #sidebar li{
-            color: #555;
-            font-size:30px;
-            padding:30px;
-            border-bottom: 4px solid rgb(228, 228, 33);
+        ul {
+            margin: 0;
+            padding: 0;
+            height: auto;
+            width: 100%;
+            background-color: black;
+            line-height: 50px;
+            list-style: none;
             text-align: center;
+            text-transform: uppercase;
+            
+        }
+
+        a {
+            color: darkorange;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+
+            text-decoration: none;
+        }
+
+        #sidebar {
+            position: fixed; 
+            left: -118px;
 
         }
-        .toggle-btn{
-            position: absolute;
-            left: 105%;
-            padding-top: 15px; /* ---or---top: 105px; */
 
+       
+        #sidebar li{
+         border-bottom: 3px solid red;
+         
+         } 
+        
+        li:hover{
+           background-color: blueviolet;
+           box-shadow: 0 5px 50px 0 red inset,0 5px 50px 0 yellow,
+                       0 5px 50px 0 green inset,0 5px 50px 0 brown;
+           text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;            
+          
+        }
+
+        .toggle-btn{
+            position:absolute;
+            left: 105%;
+            top: 105px;
         }
         .toggle-btn span{
-            display:block;
-            background-color: saddlebrown;
-            height: 3px;
-            width: 30px;
-            margin: 3px;
+            display: block;
+           background-color: black;
+           height: 3px;
+           width: 30px;
+           margin: 3px;
 
         }
         #sidebar.active{
             left: 0;
 
         }
+
+      
 
     </style>
 </head>
@@ -169,16 +172,16 @@
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
         </div>
         <ul>
             <li><a href="">HOME</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Join us</a></li>
-            <li><a href="">Developer</a></li>
-
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">JOIN US</a></li>
+            <li><a href="">CONTECT</a></li>
+            <li><a href="">DEVELOPER</a></li>
         </ul>
     </div>
+    
     
 </body>
 </html>
