@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h3 {
@@ -22,8 +22,8 @@ a {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 40%;
-    background-color: lightgreen;
+    width: 45%;
+    background-color: lightcyan;
     color: blue;
     margin-left: auto;
     margin-right: auto;
@@ -96,8 +96,8 @@ a {
     margin-top: 20px;
     text-align: center;
     padding: 28px;
-   
     width: 20%;
+    display: flex;
 }
 
 .zero2 img {
@@ -127,6 +127,7 @@ a {
     color: black;
 }
 
+ 
 #second {
     background-color: blue;
     color: greenyellow;
@@ -302,6 +303,9 @@ a {
 
 hr {
     color: darkgray;
+}
+.rr img{
+    border-radius: 100px;
 }
 
 /* ----------------------------- */
