@@ -78,7 +78,7 @@ a {
 
 #zero {
 
-    background-color: orange;
+    background-color: rgb(105, 100, 89);
     color: black;
     width: 85%;
     margin: 5px auto;
@@ -102,6 +102,9 @@ a {
     transition: 0.5s;
 
 }
+.zero4{
+   text-align: center;
+}
 
 .zero2 {
     margin-top: 20px;
@@ -124,18 +127,26 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 44px;
-
-}
-
-#first {
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 2);
     transition: 0.5s;
+    margin-top: 23px;
 
 }
+
+
 
 .first1 {
     background-color: coral;
     color: black;
+    margin-top: 12px;
+    padding-top: 21px;
+    padding: 23px;
+    margin-right: 23px;
+    margin-left: 23px;
+    border-radius: 23px;
+}
+.first1 img{
+    text-align: center;
 }
 
  
