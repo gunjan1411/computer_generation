@@ -138,10 +138,11 @@ a {
 .first1 {
     background-color: rgb(135, 136, 86);
     color: black;
-    padding: 38px;
+    width: 78%;
     margin: 5px auto;
+    padding: 38px;
     border-radius: 23px;
-    width: 80%;
+   
 
 }
 .first1 img{
