@@ -1,0 +1,101 @@
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="third1">
+
+        <div id="third">
+            <b>The Third Generation-Integrated Circuits (1965-1980)</b>
+        </div>
+        <br>
+        <hr>
+        The invention of the silicon integrated circuit by Jack Kilby and Robert Noyce (working independently) in
+        1958
+        allowed dozens of transistors to be put on a single chip. This packaging made it possible to build computers
+        that were smaller, faster, and cheaper than their transistorized predecessors. Some of the more significant
+        Computers from this generation are described below.
+        <div class="th1">
+            <img src="t.2.jpg" alt="opps">
+            <img src="t.1.jpg" alt="opps">
+        </div>
+        By 1964 IBM was the leading computer company and had a big problem with its two highly successful <a href="th1.htm"></a> and
+        profitable
+        machines, the 7094 and the 1401: they
+        were as incompatible as two machines could be. One was a high-speed number cruncher
+        using parallel binary arithmetic on 36-bit registers, and the other was a glorified input/output processor
+        using
+        serial decimal arithmetic on variable-length words in memory. Many of its corporate customers had both and
+        did
+        not like the
+        One was a high-speed number
+        idea of having two separate programming departments with nothing in common.
+        When the time came to replace these two series, IBM took a radical step. It in- troduced a single product
+        line,
+        the System/360, based on integrated circuits, that was designed for both scientific and commercial
+        computing.
+        The System/360 con- tained many innovations, the most important of which was that it was a family of about a
+        half-dozen machines with the same assembly language, and increasing size and power. A company could replace
+        its
+        1401 with a 360 Model 30 and its 7094 with a 360 Model 75. The Model 75 was bigger and faster (and more
+        expensive), but software writen for one of them could, in principle, run on the other. In prac- tice, a
+        program
+        written for a small model would run on a large model without prob- lems. However, the reverse was not true.
+        When
+        moving a program written for a large model to a smaller machine, the program might not fit in memory. Still,
+        this was a major improvement over the situation with the 7094 and 1401. The idea of machine families caught
+        on
+        instantly, and within a few years most computer manu- facturers had a family of common machines spanning a
+        wide
+        range of price and performance. Some characteristics of the initial 360 family are shown in Fig.
+
+
+        Other models were introduced later.
+        [03/06, 6:25 pm] Gunjan: Another major innovation in the 360 was multiprogramming, having several programs
+        in
+        memory at once, so that when one was waiting for input/output too complete, another could compute. This
+        resulted
+        in a higher CPU utilization.
+        The 360 also was the first machine that could emulate (simulate) other com puters. The smaller models could
+        emulate the 1401, and the larger ones could emulate the 7094, so that customers could continue to run their
+        old
+        unmodified bi- nary programs while converting to the 360. Some models ran 1401 programs so much faster than
+        the
+        1401 itself that many customers never converted their pro-
+        grams.
+        Emulation was easy on the 360 because all the initial models and most of the later models were
+        microprogrammed.
+        All IBM had to do was write three micro- programs, for the native 360 instruction set, the 1401 instruction
+        set,
+        and the 7094
+        instruction set. This flexibility was one of the main reasons microprogramming was
+        introduced in the 360. Wilkes' motivation of reducing tube count no longer mattered, of course, since the
+        360
+        did not have any tubes.
+        The 360 solved the dilemma of binary-parallel versus serial decimal with a compromise: the machine had 16
+        32-bit
+        registers for binary arithmetic, but its memory was byte-oriented, like that of the 1401. It also had 1401
+        style
+        serial in- structions for moving variably sized records around memory.
+        Another major feature of the 360 was a (for that time) huge address space of 2 (16,777,216) bytes. With
+        memory
+        costing several dollars per byte in those days, this much memory looked very much like infinity.
+        Unfortunately,
+        the 360 series was later followed by the 370, 4300, 3080, 3090, 390 and z series, all using essentially the
+        same
+        architecture. By the mid 1980s, the memory limit became a real problem, and IBM had to partially abandon
+        compatibility when it went to 32-bit addresses needed to address the new 2-byte memory
+        With hindsight, it can be argued that since they had 32-bit words and registers anyway, they probably should
+        have had 32-bit addresses as well, but at the time no one could imagine a machine with 16 million bytes of
+        memory. While the tran- sition to 32-bit addresses was successful for IBM, it was again only a temporary
+        solution to the memory-addressing problem, as computing systems would soon re- quire the ability to address
+        more
+        than 2 (4,294,967,296) bytes of memory. In a few more years computers with 64-bit addresses would appear on
+        the
+        scene.
+        The minicomputer world also took a big step forward in the third generation with DEC's introduction of the
+        PDP-1l series, a 16-bit successor to the PDP-8. In
+        many ways, the PDP-11 series was like a little brother to the 360 series just as the
+        PDP-1 was like a little brother to the 7094. Both the 360 and PDP-11 had word-oriented registers nd a
+        byte-oriented memory and both came in a range spanning a considerable price/performance ratio. The PDP-11
+        was
+        enormously successful, especially at universities, and continued DEC's lead over the other
+        minicomputer manufacturers.
+</body>

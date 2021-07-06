@@ -78,9 +78,9 @@ a {
 
 #zero {
 
-    background-color: rgb(105, 100, 89);
+    background-color: rgb(183, 204, 197);
     color: black;
-    width: 85%;
+    width: 89%;
     margin: 5px auto;
     padding: 38px;
     box-sizing: border-box;
@@ -136,16 +136,18 @@ a {
 
 
 .first1 {
-    background-color: coral;
+    background-color: rgb(135, 136, 86);
     color: black;
-    margin-top: 12px;
-    padding-top: 21px;
-    padding: 23px;
-    margin-right: 23px;
-    margin-left: 23px;
+    padding: 38px;
+    margin: 5px auto;
     border-radius: 23px;
+    width: 85%;
+
 }
 .first1 img{
+    text-align: center;
+}
+.fff{
     text-align: center;
 }
 
@@ -167,8 +169,16 @@ a {
 }
 
 .second1 {
-    background-color: #5ee4f5;
+    background-color: #e7dce6;
     color: black;
+    margin: 5px auto;
+    border-radius: 23px;
+    padding: 38px;
+    width: 85%;
+    
+}
+.s2{
+    text-align: center;
 }
 
 #third {
@@ -189,8 +199,15 @@ a {
 }
 
 .third1 {
-    background-color: yellowgreen;
+    background-color: rgb(220, 224, 184);
     color: black;
+    margin: 5px auto;
+    padding: 38px;
+    border-radius: 23px;
+    width: 85%;
+}
+.th1{
+    text-align: center;
 }
 
 #fourth {
