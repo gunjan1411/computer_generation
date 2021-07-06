@@ -33,7 +33,7 @@ a {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 45%;
+    width: 75%;
     background-color: lightcyan;
     color: blue;
     margin-left: auto;
@@ -45,7 +45,7 @@ a {
 #ab {
 
     /* border: 3px solid black; */
-    width: 40%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -57,15 +57,15 @@ a {
 
 }
 
-#ab:hover {
+/* #ab:hover {
 
-    /* border: 3px solid black; */
+ 
     width: 42%;
     margin-top: 20px;
     padding: 16px 22px;
     transition: 0.5s;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 2);
-}
+} */
 
 .l {
 
