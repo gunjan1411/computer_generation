@@ -45,18 +45,19 @@ a {
 #ab {
 
     /* border: 3px solid black; */
-    width: 75%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 14px 20px;
     text-align: center;
     background-color: darkred;
     color: bisque;
     border-radius: 17px;
-
 }
-
+.fig{
+    text-align: center;
+}
 /* #ab:hover {
 
  
@@ -232,7 +233,13 @@ a {
 .fourth1 {
     background-color: lightgoldenrodyellow;
     color: black;
-
+    margin: 5px auto;
+    padding: 38px;
+    border-radius: 23px;
+    width: 75%;
+}
+.fo{
+    text-align: center;
 }
 
 #fifth {
@@ -255,14 +262,24 @@ a {
 }
 
 .fifth1 {
-    background-color: chocolate;
+    background-color: rgb(223, 194, 174);
     color: black;
-
+    margin: 5px auto;
+    padding: 38px;
+    border-radius: 23px;
+    width: 75%;
+}
+.fifa{
+    text-align: center;
 }
 
 #dev {
     background-color: rosybrown;
     color: black;
+    margin: 5px auto;
+    padding: 12px 38px;
+    border-radius: 23px;
+    width: 75%;
 }
 
 #more {
@@ -305,12 +322,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 44px;
-
-}
-
-.more1 {
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 2);
-
     text-shadow: 10px 10px 10px rgb(0, 0, 0, 2);
 }
 
@@ -319,7 +331,10 @@ a {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-
+    margin: 5px auto;
+    padding: 12px 38px;
+    border-radius: 23px;
+    width: 75%;
 }
 
 .gf {
@@ -348,8 +363,9 @@ hr {
 .rr img{
     border-radius: 100px;
 }
+
 .myc{
-    color: #3a3333;;
+    color: #665454;;
 }
 .q{
     margin-top:23px;
