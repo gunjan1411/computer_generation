@@ -374,6 +374,15 @@ hr {
     margin-top:23px;
     margin-bottom: 23px;
 }
+.top{
+    text-align: center;
+    margin: 1px 44%;
+    padding: 2px;
+    border:1px solid;
+    border-radius: 34px;
+    border-color: red ;
+    width: 123px;
+}
 
 /* ----------------------------- */
 
