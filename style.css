@@ -383,6 +383,29 @@ hr {
     border-color: red ;
     width: 123px;
 }
+.feed{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.yes{
+    border:2px solid rgb(172, 156, 156);
+    margin: 6px 450px;
+    border-radius: 34px;
+    font-variant:small-caps;
+}
+.yes:hover{
+    background-color: green;
+}
+.no{
+    border: 2px solid rgb(172, 156, 156);
+    margin: 6px 450px;
+    border-radius: 34px;
+    font-variant:small-caps;
+}
+.no:hover{
+    background-color: red;
+}
 
 /* ----------------------------- */
 
