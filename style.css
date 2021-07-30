@@ -3,7 +3,7 @@ body{
 }
 .c14{
     margin-left: 65%;
-    border-radius: 12px;
+    border-radius: 6px;
     background-color: rgb(37, 48, 59);
     width: 120px;
     padding: 2px;
@@ -346,8 +346,7 @@ a {
     text-align: center;
     padding-top: 4px;
     color: blanchedalmond;
-
-
+    
 }
 
 .jan {
@@ -434,8 +433,9 @@ a {
 }
 
 #sidebar {
-    position: fixed;
+    position: absolute;
     left: -128px;
+
 
 }
 
@@ -456,7 +456,17 @@ li:hover {
 .toggle-btn {
     position: absolute;
     left: 115%;
-    top: 105px;
+    top: 3px;
+}
+.sq{
+    border: 2px solid red;
+    height: 27px;
+    border-radius: 6px;
+}
+.mghec{
+    border: 2px solid black;
+    height: 38px;
+    margin-top: 3px;
 }
 
 .toggle-btn span {
