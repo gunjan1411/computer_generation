@@ -2,7 +2,7 @@ body{
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .c14{
-    margin-left: 65%;
+    margin-left: 60%;
     border-radius: 6px;
     background-color: rgb(37, 48, 59);
     width: 120px;
@@ -462,6 +462,7 @@ li:hover {
     border: 2px solid red;
     height: 27px;
     border-radius: 6px;
+    margin-left: 20px; 
 }
 .mghec{
     border: 2px solid black;
